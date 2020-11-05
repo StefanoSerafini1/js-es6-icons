@@ -1,3 +1,4 @@
+$(document).ready(function() {
 // Icon set
 const icons = [
     {
@@ -97,3 +98,28 @@ const icons = [
       family: 'fas',
     },
 ];
+
+
+// contenitore icone let modificabile
+let contenitoreIcone = $('.icons');
+
+//funzione per stampa icone
+printIcons(icons, contenitoreIcone);
+});
+
+//funzione che stampa le icone del array icons
+function printIcons(icons, contenitoreIcone) {
+    icons.forEach((icon)=>{
+        const {family, prefix, name} = icon;
+        const html =//parte di html
+           `<div class="icon">
+              <i class="${family} ${prefix}${name}"></i>
+              <div class="nomeIcona">${name}</div>
+            </div>
+            `
+        contenitoreIcone.append(html);
+        return
+    });
+
+
+}
