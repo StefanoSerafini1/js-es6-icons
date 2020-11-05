@@ -1,0 +1,64 @@
+/* generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenitoreIcone{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Acme', sans-serif;
+
+}
+
+/* HEADER */
+.biancaLogo{
+    padding: 20px;
+    font-size: 40px;
+    color: dodgerblue;
+}
+
+/* contenitore zona blu con il search */
+.bluSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #4491db;
+    text-transform: uppercase;
+}
+
+.bluSearch select {
+    margin: 10px;
+    border-radius: 5px;
+}
+/* contenitore icone */
+.icons {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    background: #ddd;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+/* icone figlie del contenitore */
+.icons > .icon {
+    flex-basis: calc(100% / 6 - 20px);
+    margin: 20px 10px;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 10px;
+}
+/* la i di icon figlia di icons */
+.icons > .icon i {
+    font-size: 38px;
+    margin-bottom: 20px;
+
+}
