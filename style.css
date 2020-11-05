@@ -23,6 +23,7 @@
 
 /* contenitore zona blu con il search */
 .bluSearch{
+    font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,13 +35,15 @@
 
 .bluSearch select {
     margin: 10px;
+    padding-right: 15px;
     border-radius: 5px;
 }
 /* contenitore icone */
 .icons {
+    font-family: sans-serif;
     display: flex;
     flex-grow: 1;
-    padding: 20px;
+    padding: 10px;
     background: #ddd;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -49,16 +52,16 @@
 .icons > .icon {
     flex-basis: calc(100% / 6 - 20px);
     margin: 20px 10px;
-    padding: 20px;
+    padding: 15px;
     background: #fff;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 10px;
 }
 /* la i di icon figlia di icons */
 .icons > .icon i {
-    font-size: 38px;
+    font-size: 20px;
     margin-bottom: 20px;
 
 }
