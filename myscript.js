@@ -123,3 +123,9 @@ function printIcons(icons, contenitoreIcone) {
 
 
 }
+
+const colors = [
+    "blue",
+    "orange",
+    "purple"
+  ];
