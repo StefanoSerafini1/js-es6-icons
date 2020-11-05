@@ -98,7 +98,7 @@ const icons = [
       family: 'fas',
     },
 ];
-
+//constante per i colori
 const colors = [
     'blue',
     'orange',
@@ -131,7 +131,6 @@ function printIcons(icons, contenitoreIcone) {
 
 
 }
-
 
 //funzioni per assegnazione colore alle icone per tipo
 function colorareIcone (icons, colors) {
